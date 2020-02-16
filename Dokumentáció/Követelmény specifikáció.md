@@ -1,4 +1,4 @@
-# Hotel5000 követelményspecifikáció
+# CinemaSystem követelményspecifikáció
 
 ## **Jelenlegi üzleti folyamatok modellje**
 ### Felhasználók jegyvásárlása
