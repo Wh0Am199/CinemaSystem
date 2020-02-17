@@ -38,3 +38,14 @@ Követelmény azonosító | Leírás
 passw_enc | jelszavak titkosítása
 user_data_scope | bármely user csak a saját adataihoz fér hozzá
 anonym_rating | a jegyfoglalások értékelése 
+
+
+## **Fogalom szótár**
+- admin: 
+	- Adminisztrátor, mindenre van ráhatása, bármit módosíthat, szabad keze van az alkalmazás egésze felett.
+- user:
+	- Felhasználó, aki csak használja az alkalmazás nyújtotta lehetőségeket, tud mozijegyet foglalni.
+- approved cinema:
+	- Olyan mozi, amely szerepel a jegyvásárlási listajegyzékben. Ha szerepel a listában akkor ő automatikusan approved.
+- approved movie:
+	- Jóváhagyott mozifilmek amelyek vetítésre fognak kerülni.
