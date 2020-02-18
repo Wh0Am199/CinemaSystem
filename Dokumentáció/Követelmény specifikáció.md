@@ -13,6 +13,12 @@ A mindennapokban a mozijegy foglalás szinte csak egy oldalon érhető el, ez pe
 6. A megadott e-mail címre küldött visszaigazolást elfogadja a felhasználó
 7. A fizetés módjától függően fizet
 
+## **Igényelt üzleti folyamatok modellje**
+1. Egy olyan szoftver fejlesztése amely segítségével bárhonnan intézhető a jegy vásárlás, valamint foglalás.
+2. Segítségével könnyen nyomon követhető a jelenleg lefoglalt helyek száma, helye és ideje.
+3. Biztonságosan intézhető banki átutalás, esetleg bevásárlókosár használata.
+4. Használata regisztrációhoz között, az ügyfél fenntartja a jogot, hogy a foglalásokat és vásárlásokat bármikor megszüntetheti, így admin oldal készítése is elvárt.
+
 ## **Követelmény lista**
 ### Követelmény csoportok
 - A : admin felületre vonatkozó követelmények
