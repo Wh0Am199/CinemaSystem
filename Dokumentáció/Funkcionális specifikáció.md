@@ -33,6 +33,22 @@ Amennyiben valamilyen okból kifolyólag a látogató nem tudja elfoglalni a moz
 
 10. A mozitermekbe személyenként csak 1 csomag vihető be. Csomagmegőrzés a mozi területén nem vehető igénybe. A csomagot úgy kell elhelyezni, hogy a közlekedő folyosók szabadon maradjanak.
 
+## **Jelenlegi üzleti folyamatok modellje**
+### Felhasználók jegyvásárlása
+1. Felkeres egy keresőmotoron egy jegyfoglaló weboldalt
+2. Rákeres az adott filmre ahova jegyet szeretne vásárolni, vagy az oldalon böngészik a lehetőségek közül
+3. Kiválasztja az elérhető időpontok közül a megfelelőt
+4. Kiválasztja a sor és oszlop által meghatározott helyet
+5. Megadja a foglaláshoz szükséges adatokat
+6. A megadott e-mail címre küldött visszaigazolást elfogadja a felhasználó
+7. A fizetés módjától függően fizet
+
+## **Igényelt üzleti folyamatok modellje**
+1. Egy olyan szoftver fejlesztése amely segítségével bárhonnan intézhető a jegy vásárlás, valamint foglalás.
+2. Segítségével könnyen nyomon követhető a jelenleg lefoglalt helyek száma, helye és ideje.
+3. Biztonságosan intézhető banki átutalás, esetleg bevásárlókosár használata.
+4. Használata regisztrációhoz között, az ügyfél fenntartja a jogot, hogy a foglalásokat és vásárlásokat bármikor megszüntetheti, így admin oldal készítése is elvárt.
+
 ## **Követelmény lista**
 ### Követelmény csoportok
 - A : admin felületre vonatkozó követelmények
