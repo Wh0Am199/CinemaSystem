@@ -1,4 +1,14 @@
 # CinemaSystem követelményspecifikáció
+
+## **Áttekintés**
+Célunk egy olyan weboldal létrehozása, ahol egy átlagos felhasználó kényelmesen és egyszerűen tud az általa kiválasztott filmre jegyet várásolni/foglalni.
+Az oldalon minden felhasználó kedve szerint böngészhet az aktuálisan levetíteni kívánt filmek között. Miután megtalálta a számára kedvező filmet és mellé
+kiválasztotta az időpontot is, lehetőgése lesz a hely foglalásra. Oldalunk folyamatosan nyomon követi a szabad illetve foglalt helyek számát és helyét. Amint megtörtént a hely foglalás máris következik
+a jegyvásárlás. Legfőbb szempontunk az, hogy az oldalunk a lehető legbiztonságosabb és legmegbízhatóbb legyen.
+
+## **Vágyálom rendszer**
+
+
 ## **Jelenlegi helyzet**
 A mindennapokban a mozijegy foglalás szinte csak egy oldalon érhető el, ez pedig nem más mint a  https://cinemacity.hu. Ez az egy legismertebb magyar eredetű weboldal van ami monopolhelyzetet élvez itthon. 
 
