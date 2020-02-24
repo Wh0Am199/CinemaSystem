@@ -7,7 +7,8 @@ kiválasztotta az időpontot is, lehetőgése lesz a hely foglalásra. Oldalunk 
 a jegyvásárlás. Legfőbb szempontunk az, hogy az oldalunk a lehető legbiztonságosabb és legmegbízhatóbb legyen.
 
 ## **Vágyálom rendszer**
-
+Minnél gördülékenyebb és egyszerű weboldal fejlesztése, folyamatos nyomkövetés a szabad illetve foglalt helyekkel kapcsolatban. A precíz és bizalom gerjesztő megjelenés illetve a felhasználó első benyomásra megbizzon az oldal
+hitelességében. Levetíteni kívánt filmek frissítése és karbantartása. Adminisztrációs felület kifejlesztése és továbbfejlesztése. Egyszerű, gyors navigációk és kezelhetőség.
 
 ## **Jelenlegi helyzet**
 A mindennapokban a mozijegy foglalás szinte csak egy oldalon érhető el, ez pedig nem más mint a  https://cinemacity.hu. Ez az egy legismertebb magyar eredetű weboldal van ami monopolhelyzetet élvez itthon. 
