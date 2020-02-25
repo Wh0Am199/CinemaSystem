@@ -76,6 +76,12 @@ user_data_scope | bármely user csak a saját adataihoz fér hozzá
 anonym_rating | a jegyfoglalások értékelése 
 
 
+### Forgatókönyvek
+A weboldal adatbáziskapcsolattal fog rendelkezni, ahol tároljuk a jegyfoglalásra felkínált filmeket. Az alap konceptió, hogy bejelentkezés után a filmek listájában kikereshetjük,
+a megtekinteni kívánt filmet, majd az adott film kijelölésével már foglalhatjuk is jegyünket. Bejelentkezés nélkül is elérhető a jegyek listája viszont ebben az esetben nem lehetséges,
+a foglalás!
+
+
 ### Fogalomszótár
 PHP: A PHP egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. embedded into HTML.
 HTML: A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C támogatásával.
