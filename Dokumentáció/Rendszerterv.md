@@ -10,9 +10,8 @@ Foglaló: Ez az alapértelmezett felhasználó. Ő tud filmeket keresni, időpon
 Menedzser: Az ő feladata, hogy frissítse a műsor listát és a hozzájuk tartozó időpontokat.
 Admin: Ő felel a weblap karbantartására.
 
-### Üzleti folyamat
-Fogalási folyamat:
-
+## **Üzleti folyamat**
+### Fogalási folyamat:
 1.Bejelentkezés
 2.Filmek keresése
 3.Megfelelő időpont kiválasztása az adott filmhez
