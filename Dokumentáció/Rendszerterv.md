@@ -12,24 +12,25 @@ Admin: Ő felel a weblap karbantartására.
 
 ### Üzleti folyamat
 Fogalási folyamat:
-  1.Bejelentkezés
-  2.Filmek keresése
-  3.Megfelelő időpont kiválasztása az adott filmhez
-  4.Ülőhely kiválasztása a szabad helyek közül
-  5.Az ülőhely foglalása
-  6.Tovább a vásárlásra
+
+1.Bejelentkezés
+2.Filmek keresése
+3.Megfelelő időpont kiválasztása az adott filmhez
+4.Ülőhely kiválasztása a szabad helyek közül
+5.Az ülőhely foglalása
+6.Tovább a vásárlásra
 
 ### Vásárlási folyamat:
-  1.A foglalt jegy kosárba rakása
-  2.További jegyek vásárlása/hozzá adása
-  3.A kiválasztott jegyek megvétele online banki tranzakcióval
-  4.Sikeres vásárlás esetén egy megerősítő e-mail küldése
+1.A foglalt jegy kosárba rakása
+2.További jegyek vásárlása/hozzá adása
+3.A kiválasztott jegyek megvétele online banki tranzakcióval
+4.Sikeres vásárlás esetén egy megerősítő e-mail küldése
   
 ### Menedzselés folyamata:
-  1.A filmek vetítési jogának a megszerzése/fentartása
-  2.A filmek magyar illetve más nyelveken történő vetítésének engedélyezése
-  3.Feliratok megszerzése, engedélyezése
-  4.Film vetítési engedélyezése
+1.A filmek vetítési jogának a megszerzése/fentartása
+2.A filmek magyar illetve más nyelveken történő vetítésének engedélyezése
+3.Feliratok megszerzése, engedélyezése
+4.Film vetítési engedélyezése
 
 
   
