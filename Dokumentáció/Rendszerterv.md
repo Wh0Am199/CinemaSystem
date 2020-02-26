@@ -14,12 +14,12 @@ Admin: Ő felel a weblap karbantartására.
 
 ## **Üzleti folyamat**
 ### Fogalási folyamat:
-*1.Bejelentkezés
-*2.Filmek keresése
-*3.Megfelelő időpont kiválasztása az adott filmhez
-*4.Ülőhely kiválasztása a szabad helyek közül
-*5.Az ülőhely foglalása
-*6.Tovább a vásárlásra
+* 1.Bejelentkezés
+* 2.Filmek keresése
+* 3.Megfelelő időpont kiválasztása az adott filmhez
+* 4.Ülőhely kiválasztása a szabad helyek közül
+* 5.Az ülőhely foglalása
+* 6.Tovább a vásárlásra
 
 ### Vásárlási folyamat:
 1.A foglalt jegy kosárba rakása
