@@ -33,6 +33,5 @@ Admin: Ő felel a weblap karbantartására.
 * 3.Feliratok megszerzése, engedélyezése
 * 4.Film vetítési engedélyezése
 
-
   
 
