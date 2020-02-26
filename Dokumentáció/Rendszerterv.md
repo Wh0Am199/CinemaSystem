@@ -5,13 +5,12 @@ Az a tervünk, hogy egy olyan megbízható weboldalt készítsünk amivel könny
 Nem az a célünk, hogy ez az oldal legyen a legnépszerűbb, csak szeretnék az emberek számára több lehetőséget is adni, hogy ne csak egy webhelyről lehessen mozijegyeket vásárolni. Tegyük fel, hogy a cinemacity.hu weboldala valamilyen okból kifolyólag nem érhető el és szükségünk van egy másik weboldalra, ahol szintén biztonságosan tudunk vásárolni jegyeket. 
 
 ## **Üzleti folyamatok modellje**
-## Üzleti Szereplők
-
+### Üzleti Szereplők
 Foglaló: Ez az alapértelmezett felhasználó. Ő tud filmeket keresni, időpontokat keresni és az időponthoz rendelt jegyeket vásárolni.
 Menedzser: Az ő feladata, hogy frissítse a műsor listát és a hozzájuk tartozó időpontokat.
 Admin: Ő felel a weblap karbantartására.
 
-## Üzleti folyamat
+### Üzleti folyamat
 Fogalási folyamat:
   1.Bejelentkezés
   2.Filmek keresése
@@ -20,13 +19,13 @@ Fogalási folyamat:
   5.Az ülőhely foglalása
   6.Tovább a vásárlásra
 
-## Vásárlási folyamat:
+### Vásárlási folyamat:
   1.A foglalt jegy kosárba rakása
   2.További jegyek vásárlása/hozzá adása
   3.A kiválasztott jegyek megvétele online banki tranzakcióval
   4.Sikeres vásárlás esetén egy megerősítő e-mail küldése
   
-## Menedzselés folyamata:
+### Menedzselés folyamata:
   1.A filmek vetítési jogának a megszerzése/fentartása
   2.A filmek magyar illetve más nyelveken történő vetítésének engedélyezése
   3.Feliratok megszerzése, engedélyezése
