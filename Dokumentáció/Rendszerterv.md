@@ -22,16 +22,16 @@ Admin: Ő felel a weblap karbantartására.
 * 6.Tovább a vásárlásra
 
 ### Vásárlási folyamat:
-1.A foglalt jegy kosárba rakása
-2.További jegyek vásárlása/hozzá adása
-3.A kiválasztott jegyek megvétele online banki tranzakcióval
-4.Sikeres vásárlás esetén egy megerősítő e-mail küldése
+* 1.A foglalt jegy kosárba rakása
+* 2.További jegyek vásárlása/hozzá adása
+* 3.A kiválasztott jegyek megvétele online banki tranzakcióval
+* 4.Sikeres vásárlás esetén egy megerősítő e-mail küldése
   
 ### Menedzselés folyamata:
-1.A filmek vetítési jogának a megszerzése/fentartása
-2.A filmek magyar illetve más nyelveken történő vetítésének engedélyezése
-3.Feliratok megszerzése, engedélyezése
-4.Film vetítési engedélyezése
+* 1.A filmek vetítési jogának a megszerzése/fentartása
+* 2.A filmek magyar illetve más nyelveken történő vetítésének engedélyezése
+* 3.Feliratok megszerzése, engedélyezése
+* 4.Film vetítési engedélyezése
 
 
   
