@@ -35,33 +35,33 @@ Admin: Ő felel a weblap karbantartására.
 
 ## **Implementációs terv**
 
-	### Perzisztencia osztályok:
+### Perzisztencia osztályok:
 	
-		UserMapper - Model
-		ClassMapper - Model
-		LocationMapper - Model
-		MovieMapper - Model
-		StatsMapper - Model
+	* UserMapper - Model
+	* ClassMapper - Model
+	* LocationMapper - Model
+	* MovieMapper - Model
+	* StatsMapper - Model
 	
-	### Üzleti logika osztályok:
+### Üzleti logika osztályok:
 	
-		LoginLogout
-		Registration
-		UserActions
-		AdminActions
+	* LoginLogout
+	* Registration
+	* UserActions
+	* AdminActions
 
-	### Kliens oldal osztályai:
+### Kliens oldal osztályai:
 	
-		LoginPage
-		RegisterPage
-		MainPage
-		SearchPage
-		UserStatsPage
-		AdminStatsPage
-		ReservePage
-		BuyPage
-		CartPage
-		ClassesPage
+	* LoginPage
+	* RegisterPage
+	* MainPage
+	* SearchPage
+	* UserStatsPage
+	* AdminStatsPage
+	* ReservePage
+	* BuyPage
+	* CartPage
+	* ClassesPage
 
 ## **Karbantartási terv**
 
