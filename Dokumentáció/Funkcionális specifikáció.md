@@ -75,14 +75,22 @@ passw_enc | jelszavak titkosítása
 user_data_scope | bármely user csak a saját adataihoz fér hozzá
 anonym_rating | a jegyfoglalások értékelése 
 
+##Megfeleltetés	
+	- Jegyfoglalás felhasználók számára (u_reserve, u_purchase)
+	- Az időpontokat és a feltételeket az adminok módosíthatják (A_moderate)
+	- Admin oldal fentartása, ahol lehetőségük van a felhasználók felülvizsgálatára(A_login, A_supervise)
+	- Kereső funkció, ahol lehetőség van helyszín, dátum, és film szerint is szűkíteni az opciókat(u_browse, u_search)
+	- Lehetőség legyen a jegyeket visszamondására, törlésére bizonyos feltételekkel(u_cancel, u_delete)
+	- Felhasználók adatainak biztonságos kezelése(passw_enc, user_data_scope)
+	- A jegyfoglalásokat képesek legyenek értékelni(anonym_rating)
 
-### Forgatókönyvek
+## Forgatókönyvek
 A weboldal adatbáziskapcsolattal fog rendelkezni, ahol tároljuk a jegyfoglalásra felkínált filmeket. Az alap konceptió, hogy bejelentkezés után a filmek listájában kikereshetjük,
 a megtekinteni kívánt filmet, majd az adott film kijelölésével már foglalhatjuk is jegyünket. Bejelentkezés nélkül is elérhető a jegyek listája viszont ebben az esetben nem lehetséges,
 a foglalás!
 
 
-### Fogalomszótár
+## Fogalomszótár
 PHP: A PHP egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. embedded into HTML.
 HTML: A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C támogatásával.
 CSS: A CSS a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
