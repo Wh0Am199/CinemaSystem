@@ -34,20 +34,24 @@ Admin: Ő felel a weblap karbantartására.
 * 4.Film vetítési engedélyezése
 
 ## **Implementációs terv**
-	### **Perzisztencia osztályok:**
+
+	### Perzisztencia osztályok:
+	
 		UserMapper - Model
 		ClassMapper - Model
 		LocationMapper - Model
 		MovieMapper - Model
 		StatsMapper - Model
 	
-	### **Üzleti logika osztályok:**
+	### Üzleti logika osztályok:
+	
 		LoginLogout
 		Registration
 		UserActions
 		AdminActions
 
-	### **Kliens oldal osztályai:**
+	### Kliens oldal osztályai:
+	
 		LoginPage
 		RegisterPage
 		MainPage
