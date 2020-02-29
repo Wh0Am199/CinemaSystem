@@ -75,7 +75,7 @@ passw_enc | jelszavak titkosítása
 user_data_scope | bármely user csak a saját adataihoz fér hozzá
 anonym_rating | a jegyfoglalások értékelése 
 
-##Megfeleltetés	
+## Megfeleltetés	
 	- Jegyfoglalás felhasználók számára (u_reserve, u_purchase)
 	- Az időpontokat és a feltételeket az adminok módosíthatják (A_moderate)
 	- Admin oldal fentartása, ahol lehetőségük van a felhasználók felülvizsgálatára(A_login, A_supervise)
