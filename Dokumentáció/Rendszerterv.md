@@ -33,6 +33,32 @@ Admin: Ő felel a weblap karbantartására.
 * 3.Feliratok megszerzése, engedélyezése
 * 4.Film vetítési engedélyezése
 
+## **Implementációs terv**
+	### **Perzisztencia osztályok:**
+		UserMapper - Model
+		ClassMapper - Model
+		LocationMapper - Model
+		MovieMapper - Model
+		StatsMapper - Model
+	
+	### **Üzleti logika osztályok:**
+		LoginLogout
+		Registration
+		UserActions
+		AdminActions
+
+	### **Kliens oldal osztályai:**
+		LoginPage
+		RegisterPage
+		MainPage
+		SearchPage
+		UserStatsPage
+		AdminStatsPage
+		ReservePage
+		BuyPage
+		CartPage
+		ClassesPage
+
 ## **Karbantartási terv**
 
 A szoftver a jövőben nem igényel nagy karbantartásokat, a szükséges karbantartások az 
