@@ -42,3 +42,19 @@ alábbi egységekből állnak:
 2. A kiszolgáló szerver státuszának ellenőrzése, offline szerver esetén újraindítás.
 3. Igény esetén új funkciók implementálása.  
 
+## **Telepítési terv**
+
+### **Fizika telepítési terv:**
+
+- Szükség van egy adatbázis szerverre, amely direktbe csatlakozik LAN-on 
+  a webszerverre, amelyen egy alkalmazásszerver fut.
+  
+- A webszerver a lekérdezéseket REST API segítségével végzi.
+
+- A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
+
+### **Szoftver telepítési terv:**
+
+- A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges
+  (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá.  
+
