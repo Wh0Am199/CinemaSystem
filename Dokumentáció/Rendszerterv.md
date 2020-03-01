@@ -33,6 +33,13 @@ Admin: Ő felel a weblap karbantartására.
 * 3.Feliratok megszerzése, engedélyezése
 * 4.Film vetítési engedélyezése
 
+## **Fizikai környezet**
+
+A mi elképzelésünk az, hogy php css és Java script nyelven fogunk fejleszteni és mivel mi webszerverre fejlesztünk ezért az adatbázisunk egy localhost szerveren fog futni, amiről tudunk adatokat lekérdezni, illetve feltölteni újjakat. Mivel weblap felületen fog működni az egész, ezért mint windowson mint linux rendszeren elérhető lesz ez az egész weboldal. 
+
+
+
+
 ## **Implementációs terv**
 
 ### Perzisztencia osztályok:
