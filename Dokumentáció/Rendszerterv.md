@@ -38,11 +38,14 @@ Admin: Ő felel a weblap karbantartására.
 A mi elképzelésünk az, hogy html, php, css és Java script nyelven fogunk fejleszteni és mivel mi webszerverre fejlesztünk ezért az adatbázisunk egy localhost szerveren fog futni, amiről tudunk adatokat lekérdezni, illetve feltölteni. Mivel ez egy weblap felületen fog működni, ezért mint windowson mint linux rendszeren elérhető lesz ez a weboldal. Hálózatot tekintve LAN hálózatot fejlesztünk de később célunk kiterjeszteni az egész weboldalt egy WAN méretűre. 
 
 ### Részei:
-
+Követelmény azonosító | Leírás
+----------------------|-------
 Fejlesztői eszközök| PhP, CSS, JavaScript, HTML
 Keretrendszer| SQL adatbázis, .NET keretrendszer
 Hálózati topológia| ![GitHub Logo](/images/LAN.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](url) 
+
+
 
 
 
