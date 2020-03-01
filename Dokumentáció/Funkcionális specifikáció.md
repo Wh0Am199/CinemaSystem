@@ -76,13 +76,14 @@ user_data_scope | bármely user csak a saját adataihoz fér hozzá
 anonym_rating | a jegyfoglalások értékelése 
 
 ## Megfeleltetés	
-	- Jegyfoglalás felhasználók számára (u_reserve, u_purchase)
-	- Az időpontokat és a feltételeket az adminok módosíthatják (A_moderate)
-	- Admin oldal fentartása, ahol lehetőségük van a felhasználók felülvizsgálatára(A_login, A_supervise)
-	- Kereső funkció, ahol lehetőség van helyszín, dátum, és film szerint is szűkíteni az opciókat(u_browse, u_search)
-	- Lehetőség legyen a jegyeket visszamondására, törlésére bizonyos feltételekkel(u_cancel, u_delete)
-	- Felhasználók adatainak biztonságos kezelése(passw_enc, user_data_scope)
-	- A jegyfoglalásokat képesek legyenek értékelni(anonym_rating)
+- Jegyfoglalás felhasználók számára (u_reserve, u_purchase)
+- Az időpontokat és a feltételeket az adminok módosíthatják (A_moderate)
+- Admin oldal fentartása, ahol lehetőségük van a felhasználók felülvizsgálatára(A_login, A_supervise)
+- Kereső funkció, ahol lehetőség van helyszín, dátum,
+  és film szerint is szűkíteni az opciókat(u_browse, u_search)
+- Lehetőség legyen a jegyeket visszamondására, törlésére bizonyos feltételekkel(u_cancel, u_delete)
+- Felhasználók adatainak biztonságos kezelése(passw_enc, user_data_scope)
+- A jegyfoglalásokat képesek legyenek értékelni(anonym_rating)
 
 ## Forgatókönyvek
 A weboldal adatbáziskapcsolattal fog rendelkezni, ahol tároljuk a jegyfoglalásra felkínált filmeket. Az alap konceptió, hogy bejelentkezés után a filmek listájában kikereshetjük,
