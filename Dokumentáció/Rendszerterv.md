@@ -42,7 +42,7 @@ Részei | Leírás
 ----------------------|-------
 Fejlesztői eszközök| PhP, CSS, JavaScript, HTML
 Keretrendszer| SQL adatbázis, .NET keretrendszer
-Hálózati topológia| ![LAN.png](/images/LAN.png)
+Hálózati topológia| ![LAN.png](/F:/LAN.png)
  
 
 
