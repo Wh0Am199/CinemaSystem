@@ -103,4 +103,6 @@ FrontEnd: A front-end réteg feladata a rendszerből kijutó adatok prezentálá
 Beta: A béta verziójú programokon általában már csak apró fejlesztéseket, bővítéseket hajtanak végre, és a módosítások legnagyobb része inkább a hibák javítására és kompatibilitási problémák megoldására korlátozódik.
 Alpha: Az alfa verziójú programok általában még erősen fejlesztési fázisban vannak, funkciókészletük nem végleges, és számos szoftverhibával rendelkeznek.
 
-
+## **Vágyálom rendszer**
+Minnél gördülékenyebb és egyszerű weboldal fejlesztése, folyamatos nyomkövetés a szabad illetve foglalt helyekkel kapcsolatban. A precíz és bizalom gerjesztő megjelenés illetve a felhasználó első benyomásra megbizzon az oldal
+hitelességében. Levetíteni kívánt filmek frissítése és karbantartása. Adminisztrációs felület kifejlesztése és továbbfejlesztése. Egyszerű, gyors navigációk és kezelhetőség.
