@@ -106,3 +106,15 @@ Alpha: Az alfa verziójú programok általában még erősen fejlesztési fázis
 ## **Vágyálom rendszer**
 Minnél gördülékenyebb és egyszerű weboldal fejlesztése, folyamatos nyomkövetés a szabad illetve foglalt helyekkel kapcsolatban. A precíz és bizalom gerjesztő megjelenés illetve a felhasználó első benyomásra megbizzon az oldal
 hitelességében. Levetíteni kívánt filmek frissítése és karbantartása. Adminisztrációs felület kifejlesztése és továbbfejlesztése. Egyszerű, gyors navigációk és kezelhetőség.
+
+## **Funkció**
+A követelmény specifikácíóba felsorolt követelmények vizsgálata. A követelményben kért admin és user funkciók teljes
+mértékben megoldhatóak. A weboldalon a bejelentkezés úgy lesz megoldva, hogy ha egy sima felhasználó belép a regisztrált
+adataival akkor user felületet kap, ugymond a default felhasználó felületet. Míg ha egy admin felhasz. és jelszó párossal lépünk be
+akkor megjelenik az admin panel is, ahol tudjuk felügyelni a dolgokat. Az adminnak lehetősege lesz az aktuális filmek módosításásra,
+a hely illetve jegy foglalás módosítására és törlésére, a film vetítés idejének módosítására.
+Továbbá elérhető lesz egy kereső, ahová a felhasználó csak beirja a keresni kívánt film nevét. Jegyfoglalás visszamondására is
+lesz lehetősége a felületen.
+Biztosítva lesz továbbá az is, hogy egy adott felhasználó csakis a saját fiókjához férjen hozzá, így megszüntetve komplikációkat.
+A regisztrál felhasználó és jelszó páros bizalommal lesz kezelve, illetve a jelszó titkosítás is a lehető legbiztonságosabb módon
+fog megtörténni.
