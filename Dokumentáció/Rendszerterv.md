@@ -39,7 +39,7 @@ A mi elképzelésünk az, hogy html, php, css és Java script nyelven fogunk fej
 
 ### Részei:
 
-----------|---------|-----
+----------|---------|
 Fejlesztői eszközök| PhP, CSS, JavaScript, HTML
 Keretrendszer| SQL adatbázis, .NET keretrendszer
 Hálózati topológia| ![GitHub Logo](/images/LAN.png)
