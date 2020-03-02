@@ -4,6 +4,14 @@ Az a tervünk, hogy egy olyan megbízható weboldalt készítsünk amivel könny
 
 Nem az a célünk, hogy ez az oldal legyen a legnépszerűbb, csak szeretnék az emberek számára több lehetőséget is adni, hogy ne csak egy webhelyről lehessen mozijegyeket vásárolni. Tegyük fel, hogy a cinemacity.hu weboldala valamilyen okból kifolyólag nem érhető el és szükségünk van egy másik weboldalra, ahol szintén biztonságosan tudunk vásárolni jegyeket. 
 
+## **Projekt terv**
+
+Project dolgozók: Dudás Botond, Balogh Dániel, Szalai Márk, Bárdos Bálint
+				  
+		Tervezet: Követelmény Specifikáció, Funkcionális Specifikáció, Rendszer Dizájn, Adattárolás, Tesztek
+		BackEnd: A back-end réteg feladata a front-end réteg felől érkező adatok feldolgozása, ill. a keletkezett eredmény a front-end számára történő visszajuttatása.
+		FrontEnd: A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása a felhasználó vagy a csatlakoztatott rendszer felől.
+				
 ## **Üzleti folyamatok modellje**
 ### Üzleti Szereplők
 Foglaló: Ez az alapértelmezett felhasználó. Ő tud filmeket keresni, időpontokat keresni és az időponthoz rendelt jegyeket vásárolni.
