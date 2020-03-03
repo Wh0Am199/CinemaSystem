@@ -152,7 +152,7 @@ funkciókkal, műveletekkel.
 
 
 A következő kép, reprezentálja a használati esetünket.
-	![Hasznalati_esetek.png](https://github.com/Wh0Am199/CinemaSystem/blob/master/Dokument%C3%A1ci%C3%B3/Hasznalati_esetek.jpg)
+	![Hasznalati_esetek.png](https://github.com/Wh0Am199/CinemaSystem/blob/master/Dokument%C3%A1ci%C3%B3/Hasznalati_esetek.png)
 
 
 
