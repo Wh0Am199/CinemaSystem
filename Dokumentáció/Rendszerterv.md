@@ -169,7 +169,7 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 	- Egyszerü regisztrációs felület
 
 ### **Nem-funkcionális követelmények:**
-A weboldal:
+#### **A weboldal:**
 	- Nem tartalmazhat erőszakos tartalmakat
 	- Nem tartalmazhat politikai dolgokkal kapcsolatos tartalmakat.
 	- Semmiféle törvényellenes illetve felnőtt, rasszista dolgokat nem tartalmazhat.
@@ -186,3 +186,24 @@ A weboldal:
 #### **A közérdekű adatok elektronikus közzétételére vonatkozó kormányrendelet**
 	A közzétételre szolgáló honlapot úgy kell kialakítani, hogy az a széles körben elterjedt, valamint a vakok és gyengénlátók 
 	által széles körben használt eszközökkel is olvasható legyen.
+	
+#### **Szabványok**
+##### **WCAG 2.0 (ISO/IEC 40500:2012) szabvány**
+	A W3C által összeállított WCAG 2.0 web akadálymentesítési útmutató sokáig csak iparági ajánlás volt, de a szakma mindig 
+	de-facto szabványként tekintett rá. Aztán 2012 októberében a nemzetközi szabványügyi testület ISO/IEC 40500:2012 számon 
+	nemzetközi szintű hivatalos (de-jure) szabvánnyá emelte.
+	
+	A tolmácsszolgálat önálló honlapot működtet, amely tartalmazza a tolmácsszolgálat szolgáltatási rendjét a (2) bekezdés a)–c) pontja 
+	szerinti formátumokban, és megfelel a WCAG 2.0 webes akadálymentesítési ajánlás legalább „A” szintjének.
+##### **WCAG 2.1 szabvány**
+	A 2018 júniusában megjelent WCAG 2.1 szabvány kibőviti a WCAG 2.0 szabványt. Így tehát azok a weboldalak, amelyek megfelelnek
+	a WCAG 2.1-nek, egyben a WCAG 2.0-nak is megfelelnek. A WCAG 2.1 megjelenésével a WCAG 2.0 nem lett visszavonva, illetve 
+	nem vesztette el a hatályát.
+##### **MSZ EN 301 549:2015 szabvány**
+	Célja, hogy a közbeszerzésekben érdekelt felek erre a szabványra hivatkozhassanak például a digitális eszközök, weboldalak, szoftverek 
+	akadálymentességének biztosítása során.
+##### **EN 301 549 V2.1.2 (2018-08) harmonizált európai szabvány**
+	Az EN 301 549 szabvány legfrissebb verziója. Az előző verziókhoz képest az egyik legfontosabb változás benne az, hogy ez már 
+	a WCAG 2.1 szabványra hivatkozik, amikor a weboldalak, az elektronikus dokumentumok, és a nem web alapú szoftverek 
+	(így például a mobilalkalmazások) akadálymentességét szabályozza. Vagyis ha egy weboldal megfelel a WCAG 2.1 szabvány „AA” szintjének, 
+	akkor szinte biztos, hogy megfelel az EN 301 549 V2.1.2 (2018-08) szabványnak is.
