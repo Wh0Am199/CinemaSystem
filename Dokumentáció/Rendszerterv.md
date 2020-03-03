@@ -207,3 +207,21 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 	a WCAG 2.1 szabványra hivatkozik, amikor a weboldalak, az elektronikus dokumentumok, és a nem web alapú szoftverek 
 	(így például a mobilalkalmazások) akadálymentességét szabályozza. Vagyis ha egy weboldal megfelel a WCAG 2.1 szabvány „AA” szintjének, 
 	akkor szinte biztos, hogy megfelel az EN 301 549 V2.1.2 (2018-08) szabványnak is.
+	
+## **Funkcionális terv**
+
+### **Rendszerszereplők:**
+####**Admin**
+	- Beléphet bármilyen felhasználóként, teljes hozzáférése van a rendszerhez.
+	- A felhasználói adatokat látják, változtathatják. Persze a jelszavak titkosítva vannak!
+	- Felhasználó hozzáadására, felfüggesztésére, törlésére van lehetőségük.
+	- Üzenetküldés bárkinek vagy globálisan
+	- Felhasználói adatok módosítása
+	- Jegyfoglalás módosítása, törlése.
+	- Felhasználó kiléptetése a szerverről.
+####**Felhasználó**
+	- Saját adatok szerkesztése.
+	- Képes üzenetet küldeni más felhasználóknak.
+	- Film lista megtekintése.
+	- Jegyfoglalás illetve helyfoglalás.
+	
