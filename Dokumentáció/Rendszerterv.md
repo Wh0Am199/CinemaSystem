@@ -142,12 +142,14 @@ Tesztelési eljárások
 		A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fejlesztőknek, probléma/hiba felmerülése esetén.
 		Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba esetén a tesztelés ideje elhúzódhat.
 		
-## **Architetkturális terv**
+## **Architekturális terv**
 
-Az architetkturális terv a következőképpen épül fel:
-	BackEnd: Használati nyelv a PHP lesz és ehhez társul egy adatbázis kapcsolat is.
-	FrontEnd: Legfőképp HTML és CCS használata illetve JavaScript.
-	Rendszer: Menük illetve funkciók létrehozása, mint pl: regisztráció, belépés, kilépés, jegyfoglalás, kapcsolat felvétel.
-	Változások: Újabb funkciók beépítése, mai elvárásoknak való megfelelés, weboldal kinézetének finomítása.
+Az architekturális terv a következőképpen épül fel:
+
+	- BackEnd: Használati nyelv a PHP lesz és ehhez társul egy adatbázis kapcsolat is.
+	- FrontEnd: Legfőképp HTML és CCS használata illetve JavaScript.
+	- Rendszer: Menük illetve funkciók létrehozása, mint pl: regisztráció, belépés, kilépés, jegyfoglalás, kapcsolat felvétel.
+	- Változások: Újabb funkciók beépítése, mai elvárásoknak való megfelelés, weboldal kinézetének finomítása.
+	
 A BackEnd részen a  kiszolgáló egy PHP-ban készült  szolgáltatás lesz. Ez csatlakozik az adatbázishoz, ahonnan eljárások segítségével 
 képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és fogadni a kliens/kliensek által szolgáltatott adatokat.
