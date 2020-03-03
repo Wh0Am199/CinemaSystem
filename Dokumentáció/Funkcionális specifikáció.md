@@ -89,7 +89,7 @@ anonym_rating | a jegyfoglalások értékelése
 A weboldal adatbáziskapcsolattal fog rendelkezni, ahol tároljuk a jegyfoglalásra felkínált filmeket. Az alap konceptió, hogy bejelentkezés után a filmek listájában kikereshetjük,
 a megtekinteni kívánt filmet, majd az adott film kijelölésével már foglalhatjuk is jegyünket. Bejelentkezés nélkül is elérhető a jegyek listája viszont ebben az esetben nem lehetséges,
 a foglalás!
-
+Lesz egy login felület, illetve egy register felület ahol az új felhasználók profilt tudnak készíteni és így igénybe venni a szolgáltatásokat!
 
 ## Fogalomszótár
 	PHP: A PHP egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. embedded into HTML.
