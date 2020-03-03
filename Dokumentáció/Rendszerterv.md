@@ -224,4 +224,19 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 	- Képes üzenetet küldeni más felhasználóknak.
 	- Film lista megtekintése.
 	- Jegyfoglalás illetve helyfoglalás.
+
+### **Menü hiearchiák**
+#### **Bejelentkezés:**
+	- Bejelentkezés
+	- Regisztráció
+#### **Fő menü:**
+	- Filmek
+	- Jegyfoglalás
+	- Legjobbra értékelt filmek
+	- Adatlap megtekintés
+	- Kijelentkezés
 	
+###**Jegyfoglalás és Helyfoglalás**
+	- Foglalás
+	- Visszamondás
+	- Törlés
