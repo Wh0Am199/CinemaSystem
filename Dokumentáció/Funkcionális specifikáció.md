@@ -123,8 +123,9 @@ fog megtörténni.
 ### **Aktorok azonosítása**
 Weboldalunkon 2db aktort tartunk számon. Az egyik aktor maga a felhasználó, aki jegyet szeretne venni a általa kiválasztott filmre, a másik
 aktor pedig az admin, aki ezeknek a folyamatoknak a helyes müködéséért felel. Plusz felügyeli a weboldal helyes müködését.
-	Admin
-	Felhasználó
+
+	- Admin
+	- Felhasználó
 ### **Használati esetek azonosítása**
 A felhasználónak olyan funkciói vannak amik csakis rá vonatkoznak. Ha a felhasználó sikeresen belépett a weboldalra akkor máris történt egy 
 hitelesítés, amely kapcsolódik az adatbázishoz. Az adatbázis kikeresi a felhasználónévhez tartozó jelszót és ha egyezik akkor beengedi a felhasználót.
@@ -143,3 +144,15 @@ Többek között lehetősége lesz helyfoglalásra is amely a jegyvásárlás el
 ülőhelyeket. Nos itt a lehetőség van a szabad helyek közül választania a felhasználónak. Amennyiben a felhasználó olyan helyet választ amely foglalt, a
 rendszer automatikusan figyelmezteti a felhasználót és megszakítja a műveletet.
 Miután sikeresen lefoglalta a helyet, következik a jegyvásárlás.
+A jegyvásárlás folyamata a következő, miután hibamentesen sikerült kiválasztani az ülőhelyet az után lehetőség van különböző online fizetési módokra.
+Sikeres fizetés után a rendszer tárolja a filmet, az időpontot és a helyet ahová foglalva lett.
+
+Az adminak a funkciói konkrátan a mindenhez való hozzáférés. Az adminok kapcsolatban állnak az összes végbement illetve végrehajtásra várakozó 
+funkciókkal, műveletekkel.
+
+
+A következő kép, reprezentálja a használati esetünket.
+	![Hasznalati_esetek.png](https://github.com/Wh0Am199/CinemaSystem/blob/master/Dokument%C3%A1ci%C3%B3/Hasznalati_esetek.jpg)
+
+
+
