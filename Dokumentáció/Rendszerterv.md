@@ -153,3 +153,17 @@ Az architekturális terv a következőképpen épül fel:
 	
 A BackEnd részen a  kiszolgáló egy PHP-ban készült  szolgáltatás lesz. Ez csatlakozik az adatbázishoz, ahonnan eljárások segítségével 
 képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és fogadni a kliens/kliensek által szolgáltatott adatokat.
+
+## **Követelmények**
+
+### **Funkcionális követelmények:**
+	- Könnyű kezelhetőség
+	- Áttekinhető és felhasználó barát felület
+	- Optimalizálás különböző böngészőkre
+	- Optimalizálás telefonos böngészőkre
+	- Információk gyűjtése az aktuális filmekről
+	- Film lista frissítése
+	- Egyszerü és gyors jegyfoglalás
+	- Átlátható helyfoglalás
+	- Jegyfoglalás visszamondása
+	- Egyszerü regisztrációs felület
