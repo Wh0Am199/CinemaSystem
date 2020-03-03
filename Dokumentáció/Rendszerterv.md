@@ -211,7 +211,7 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 ## **Funkcionális terv**
 
 ### **Rendszerszereplők:**
-####**Admin**
+#### **Admin**
 	- Beléphet bármilyen felhasználóként, teljes hozzáférése van a rendszerhez.
 	- A felhasználói adatokat látják, változtathatják. Persze a jelszavak titkosítva vannak!
 	- Felhasználó hozzáadására, felfüggesztésére, törlésére van lehetőségük.
@@ -219,7 +219,7 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 	- Felhasználói adatok módosítása
 	- Jegyfoglalás módosítása, törlése.
 	- Felhasználó kiléptetése a szerverről.
-####**Felhasználó**
+#### **Felhasználó**
 	- Saját adatok szerkesztése.
 	- Képes üzenetet küldeni más felhasználóknak.
 	- Film lista megtekintése.
@@ -236,7 +236,7 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 	- Adatlap megtekintés
 	- Kijelentkezés
 
-###**Jegyfoglalás és Helyfoglalás**
+### **Jegyfoglalás és Helyfoglalás**
 	- Foglalás
 	- Visszamondás
 	- Törlés

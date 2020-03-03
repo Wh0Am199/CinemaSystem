@@ -120,3 +120,26 @@ A regisztrál felhasználó és jelszó páros bizalommal lesz kezelve, illetve 
 fog megtörténni.
 
 ## **Használati esetek**
+### **Aktorok azonosítása**
+Weboldalunkon 2db aktort tartunk számon. Az egyik aktor maga a felhasználó, aki jegyet szeretne venni a általa kiválasztott filmre, a másik
+aktor pedig az admin, aki ezeknek a folyamatoknak a helyes müködéséért felel. Plusz felügyeli a weboldal helyes müködését.
+	Admin
+	Felhasználó
+### **Használati esetek azonosítása**
+A felhasználónak olyan funkciói vannak amik csakis rá vonatkoznak. Ha a felhasználó sikeresen belépett a weboldalra akkor máris történt egy 
+hitelesítés, amely kapcsolódik az adatbázishoz. Az adatbázis kikeresi a felhasználónévhez tartozó jelszót és ha egyezik akkor beengedi a felhasználót.
+Amennyiben a felhasználó elüti vagy rosszul gépeli be a jelszavát vagy felhasználóját, ebben az esetben a megírt funkciók segítségével figyelmeztetjük
+a felhasználót, mivel az adatbázisban tárolt adatok nem egyeznek meg a felhasználó által begépelt adatokkal.
+A regisztráció annyibban különbözik, hogy ott a felhasználó által begépelt adatokat fogja az adatbázisunk lementeni.
+A menük kezelése is egy fontos lépcső, a menükre kattintva a felhasználó különböző részeit éri el a weboldalunknak. A felhasználónak lehetősége lesz
+módosítani az adatlapját, amelyet egy menü elemre kattintva tehet meg. A módosítás során az oldalunk ideiglenes tárolja a szerkesztett
+adatok, majd a mentés gomb lenyomása után ezek az ideiglenes tárol adatok, ellesznek küldve az adatbázisnak ami az aktuális felhasználóhoz
+fogja lementeni a beírt adatokat.
+A filmek menü elemre kattintva a felhasználó eléri az aktuális filmeket amiket tárolunk. Az aktuális filmekre van lehetősége jegyet foglalni 
+az adott időpontokban.
+Amennyiben hibába ütközik a felhasználó a jegyfoglalás során, akkor a jegyfoglalás nem történik meg a biztonság kedvéért, valamint erről a műveletről
+tájékoztatva lesz a felhasználó.
+Többek között lehetősége lesz helyfoglalásra is amely a jegyvásárlás elött megy végbe. A rendszerünk nyomon fogja követni a lefoglalt illetve a szabad
+ülőhelyeket. Nos itt a lehetőség van a szabad helyek közül választania a felhasználónak. Amennyiben a felhasználó olyan helyet választ amely foglalt, a
+rendszer automatikusan figyelmezteti a felhasználót és megszakítja a műveletet.
+Miután sikeresen lefoglalta a helyet, következik a jegyvásárlás.
