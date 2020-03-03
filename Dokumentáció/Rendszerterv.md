@@ -173,3 +173,16 @@ A weboldal:
 	- Nem tartalmazhat erőszakos tartalmakat
 	- Nem tartalmazhat politikai dolgokkal kapcsolatos tartalmakat.
 	- Semmiféle törvényellenes illetve felnőtt, rasszista dolgokat nem tartalmazhat.
+	
+### **Törvényi előírások, szabványok:**
+#### **Az egyenlő bánásmódról és az esélyegyenlőség előmozdításáról szóló törvény**
+	A törvény 4.§-a szerint az egyenlő bánásmód követelményét alapvetően az állami, önkormányzati és 
+	egyéb közcélú szervezetek kötelesek megtartani, azonban az 5.§ ezt a kötelezettséget bizonyos magánszereplőkre is előírja. 
+	Így például arra a magánszereplőre, aki az ügyfélforgalom számára nyitva álló helyiségeiben szolgáltatást nyújt vagy árut forgalmaz.
+#### **A közszférabeli szervezetek honlapjainak és mobilalkalmazásainak akadálymentesítéséről szóló törvény**
+	A közszférabeli szervezetek honlapjai és mobilalkalmazásai alapvetően a WCAG 2.1 szabvány „AA” szintű teljesítési feltételeinek
+	feleljenek meg. Ugyan a törvény a WCAG szabványt közvetlenül nem nevesíti, de áttételesen mégis erre a szabványra
+	vezethető vissza szinte minden.
+#### **A közérdekű adatok elektronikus közzétételére vonatkozó kormányrendelet**
+	A közzétételre szolgáló honlapot úgy kell kialakítani, hogy az a széles körben elterjedt, valamint a vakok és gyengénlátók 
+	által széles körben használt eszközökkel is olvasható legyen.
