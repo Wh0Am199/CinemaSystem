@@ -167,3 +167,9 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 	- Átlátható helyfoglalás
 	- Jegyfoglalás visszamondása
 	- Egyszerü regisztrációs felület
+
+### **Nem-funkcionális követelmények:**
+A weboldal:
+	- Nem tartalmazhat erőszakos tartalmakat
+	- Nem tartalmazhat politikai dolgokkal kapcsolatos tartalmakat.
+	- Semmiféle törvényellenes illetve felnőtt, rasszista dolgokat nem tartalmazhat.
