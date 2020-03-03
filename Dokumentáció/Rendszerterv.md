@@ -235,7 +235,7 @@ képes lesz adatokat lekérni, felvinni valamint képes továbbküldeni és foga
 	- Legjobbra értékelt filmek
 	- Adatlap megtekintés
 	- Kijelentkezés
-	
+
 ###**Jegyfoglalás és Helyfoglalás**
 	- Foglalás
 	- Visszamondás
