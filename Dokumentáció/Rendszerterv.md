@@ -18,7 +18,7 @@ Foglaló: Ez az alapértelmezett felhasználó. Ő tud filmeket keresni, időpon
 
 Menedzser: Az ő feladata, hogy frissítse a műsor listát és a hozzájuk tartozó időpontokat.
 
-Admin: Ő felel a weblap karbantartására.
+Admin: Ő felel a weblap karbantartásáért.
 
 ## **Üzleti folyamat**
 ### Fogalási folyamat:
@@ -43,7 +43,7 @@ Admin: Ő felel a weblap karbantartására.
 
 ## **Fizikai környezet**
 
-A mi elképzelésünk az, hogy html, php, css és Java script nyelven fogunk fejleszteni és mivel mi webszerverre fejlesztünk ezért az adatbázisunk egy localhost szerveren fog futni, amiről tudunk adatokat lekérdezni, illetve feltölteni. Mivel ez egy weblap felületen fog működni, ezért mint windowson mint linux rendszeren elérhető lesz ez a weboldal. Hálózatot tekintve LAN hálózatot fejlesztünk de később célunk kiterjeszteni az egész weboldalt egy WAN méretűre. 
+A mi elképzelésünk az, hogy html, php, css és Java script nyelven fogunk fejleszteni és mivel mi webszerverre fejlesztünk, ezért az adatbázisunk egy localhost szerveren fog futni, amiről tudunk adatokat lekérdezni, illetve feltölteni. Mivel ez egy weblap felületen fog működni, ezért mint windowson mint linux rendszeren elérhető lesz ez a weboldal. Hálózatot tekintve LAN hálózatot fejlesztünk de később célunk kiterjeszteni az egész weboldalt egy WAN méretűre. 
 
 
 Részei | Leírás
