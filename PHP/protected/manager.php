@@ -16,7 +16,7 @@ function UserRegister($firstName, $lastName, $email, $password, $address, $addre
 			':firstName' => $firstName,
 			':lastName' => $lastName,
 			':email' => $email,
-			':password' => $password,
+			':password' => sha1($password),
 			':address' => $address,
 			':address2' => $address2,
 			':city' => $city,
