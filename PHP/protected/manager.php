@@ -27,7 +27,7 @@ function UserRegister($firstName, $lastName, $email, $password, $address, $addre
 }
 
 function UserLogin($email, $password) {
-	$query = "SELECT uid, firstname, lastname, email FROM users WHERE email = :email AND password = :password";
+	$query = "SELECT uid, firstName, lastName, email FROM users WHERE email = :email AND password = :password";
 	$params = [
 		':email' => $email,
 		':password' => sha1($password)
@@ -37,8 +37,8 @@ function UserLogin($email, $password) {
 	$record = getRecord($query, $params);
 	if(!empty($record)) {
 		$_SESSION['uid'] = $record['uid'];
-		$_SESSION['fname'] = $record['firstname'];
-		$_SESSION['lname'] = $record['lastname'];
+		$_SESSION['fname'] = $record['firstName'];
+		$_SESSION['lname'] = $record['lastName'];
 		$_SESSION['email'] = $record['email'];
 
 		header('Location: index.php');
