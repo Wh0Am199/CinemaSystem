@@ -1,6 +1,6 @@
 <?php
 function UserLogin($email, $password) {
-	$query = "SELECT id, first_name, last_name, email FROM users WHERE email = :email AND password = :password";
+	$query = "SELECT uid, firstname, lastname, email FROM users WHERE email = :email AND password = :password";
 	$params = [
 		':email' => $email,
 		':password' => sha1($password)
@@ -9,9 +9,9 @@ function UserLogin($email, $password) {
 	require_once DATABASE_CONTROLLER;
 	$record = getRecord($query, $params);
 	if(!empty($record)) {
-		$_SESSION['uid'] = $record['id'];
-		$_SESSION['fname'] = $record['first_name'];
-		$_SESSION['lname'] = $record['last_name'];
+		$_SESSION['uid'] = $record['uid'];
+		$_SESSION['fname'] = $record['firstname'];
+		$_SESSION['lname'] = $record['lastname'];
 		$_SESSION['email'] = $record['email'];
 
 		header('Location: index.php');
