@@ -50,11 +50,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
 	<div class="form-row">
 		<div class="form-group col-md-6">
 			<label for="registerFirstName">Keresztnév*</label>
-			<input type="email" class="form-control" id="registerFirstName" name="firstName" value="<?=isset($postData) ? $postData['firstName'] : "";?>">
+			<input type="text" class="form-control" id="registerFirstName" name="firstName" value="<?=isset($postData) ? $postData['firstName'] : "";?>">
 		</div>
 		<div class="form-group col-md-6">
 			<label for="registerLastName">Vezetéknév*</label>
-			<input type="email" class="form-control" id="registerLastName" name="lastName" value="<?=isset($postData) ? $postData['lastName'] : "";?>">
+			<input type="text" class="form-control" id="registerLastName" name="lastName" value="<?=isset($postData) ? $postData['lastName'] : "";?>">
 		</div>
 	</div>
 
