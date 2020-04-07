@@ -135,6 +135,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
 		</div>
 	</div>
 
-	<button type="submit" class="btn btn-primary">Regisztrálás</button>
+	<button type="submit" class="btn btn-primary" name="register">Regisztrálás</button>
 </CENTER>
 </form>
