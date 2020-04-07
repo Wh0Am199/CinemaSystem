@@ -19,4 +19,11 @@ function UserLogin($email, $password) {
 	return false;
 }
 
+function UserLogout() {
+	session_unset();
+	session_destroy();
+	header('Location: index.php');
+}
+
+
 ?>
