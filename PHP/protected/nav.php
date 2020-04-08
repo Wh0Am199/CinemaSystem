@@ -14,6 +14,9 @@
     </div>
 	<?php else : ?>
 	<div class="col-md-auto">
+		<font size="5">Bejelentkezve: <b><?php echo $_SESSION['fname'] ." ". $_SESSION['lname']; ?></b></font>
+    </div>
+	<div class="col-md-auto">
      <button type="button" class="btn btn-outline-info"> <font size="5"><a href="index.php?P=logout">Logout</a></font></button>
     </div>
 	<?php endif; ?>
