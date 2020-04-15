@@ -1,1 +1,10 @@
+Egyik hibánk a weblap Listázás opciója közben
+-------------------------------------------------
+Not Found
+The requested URL /CinemaSystem-master/PHP/listaz.php was not found on this server.
 
+Apache/2.4.39 (Win64) PHP/7.3.5 Server at localhost Port 80
+
+Megoldás:
+------------
+  A nav.php fájlban a Listázás opcióban a <a hrfe="index.php?P=listaz"> kell, hogy kerüljön, így átirányít minket egy új meglévő oldaldra.
