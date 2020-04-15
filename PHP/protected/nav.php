@@ -14,6 +14,9 @@
     </div>
 	<?php else : ?>
 	<div class="col-md-auto">
+     <button type="button" class="btn btn-outline-info"> <font size="5"><a target="_blank" href="index.php?P=szerkeszt">Profil Szerkesztése</a></font></button>
+    </div>
+	<div class="col-md-auto">
 		<font size="5">Bejelentkezve: <b><?php echo $_SESSION['fname'] ." ". $_SESSION['lname']; ?></b></font>
     </div>
 	<div class="col-md-auto">
