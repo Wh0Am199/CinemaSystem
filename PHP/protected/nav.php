@@ -20,7 +20,7 @@
      <button type="button" class="btn btn-outline-info"> <font size="5"><a href="index.php?P=logout">Logout</a></font></button>
     </div>
     <div class="col-md-auto">
-     <button type="button" class="btn btn-outline-info"> <font size="5"><a href="listaz.php?P=login">Listázás</a></font></button>
+     <button type="button" class="btn btn-outline-info"> <font size="5"><a target="_blank" href="index.php?P=listaz">Listázás</a></font></button>
     </div>
 	<?php endif; ?>
   </div>
