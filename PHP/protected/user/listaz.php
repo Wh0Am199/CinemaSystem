@@ -6,12 +6,13 @@
 <?php if(count($films) <= 0) : ?>
 	<h1>No films found in the database.</h1>
 <?php else : ?>
-	<table class="">
+	<table class="table">
 		<thead>
 			<tr>
-				<th scope="col">Film:</th>
-				<th scope="col">Korhatár besorolás:</th>
-				<th scope="col">Moziterem:</th>
+				<th>Film:</th>
+				<th>Korhatár besorolás:</th>
+				<th>Moziterem:</th>
+				<th>Film kiválasztása:</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -20,6 +21,7 @@
 					<td><?=$f['film_name'] ?></td>
 					<td><?=$f['age_rating'] ?></td>
 					<td><?=$f['cinema_hall'] ?></td>
+					<td><button type="button" class="btn btn-outline-info"> <font size="5"><a href="index.php?P=listaz?id=<?=$f['id']?>">X</a></font></button></td>
 				</tr>
 			<?php endforeach;?>
 		</tbody>
