@@ -15,11 +15,11 @@
 			</tr>
 		</thead>
 		<tbody>
-			<?php foreach ($users as $u) : ?>
+			<?php foreach ($films as $f) : ?>
 				<tr>
-					<td><?=$u['film_name'] ?></td>
-					<td><?=$u['age_rating'] ?></td>
-					<td><?=$u['cinema_hall'] ?></td>
+					<td><?=$f['film_name'] ?></td>
+					<td><?=$f['age_rating'] ?></td>
+					<td><?=$f['cinema_hall'] ?></td>
 				</tr>
 			<?php endforeach;?>
 		</tbody>
