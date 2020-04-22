@@ -5,6 +5,21 @@
 @import "../css/icons/linea-icons/linea.css";
 @import "spinners.css";
 @import "../css/icons/material-design-iconic-font/css/materialdesignicons.min.css";
+@font-face {
+  font-family: 'simple-line-icons';
+  src: url('ampleadmin-html/ampleadmin-minimal/css/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.eot');
+  src: url('ampleadmin-html/ampleadmin-minimal/css/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.eot') format('embedded-opentype'), url('ampleadmin-html/ampleadmin-minimal/css/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.ttf') format('truetype'), url('ampleadmin-html/ampleadmin-minimal/css/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.woff2_-i3a2kk') format('woff2'), url('ampleadmin-html/ampleadmin-minimal/css/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.woff') format('woff'), url('ampleadmin-html/ampleadmin-minimal/css/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-trash,
+.icon-pencil,
+.icon-trash:before {
+  content: "\e054";
+}
+.icon-pencil:before {
+  content: "\e05f";
+}
 
 * {
 	outline: none!important
