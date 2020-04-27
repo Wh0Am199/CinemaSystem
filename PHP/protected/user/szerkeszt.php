@@ -9,17 +9,24 @@
 	if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['changePassword'])) {
 		
 		$postData = [
-		'oldpassword' => $_POST['oldpassword'],
-		'newpassword' => $_POST['newpassword']
+			'oldpassword' => $_POST['oldpassword'],
+			'newpassword' => $_POST['newpassword']
 		];
 			
 		if(empty($postData['oldpassword']) || empty($postData['newpassword'])){
 			echo "Hiányzó adatok!";
 		} 
+		else if($user['password'] != sha1($postData['oldpassword'])){
+			echo "Régi jelszó nem egyezik!";
+		}
 		else{
-			$query = "UPDATE users SET password =".sha1($postData['newpassword'])." WHERE uid=".$_GET['uid']."";
-			executeDML($query);	
-			header ("Location: index.php?P=home");
+			$query = "UPDATE users SET password = :password WHERE uid=".$_GET['uid']."";
+			$params = [
+				':password' => sha1($postData['newpassword'])
+			];
+			if (!executeDML($query, $params)){
+				echo "Hiba az adatok frissítése során!";
+			} header ("Location: index.php?P=home");
 		}
 	}
 	
