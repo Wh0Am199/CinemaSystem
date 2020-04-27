@@ -1,24 +1,45 @@
-<?php 
-	$query = "SELECT uid, firtsname, lastname, email, password,  FROM users ORDER BY uid DESC";
+<?php
 	require_once DATABASE_CONTROLLER;
-	$users = getList($query);
+	
+	if(array_key_exists('uid', $_GET) && !empty($_GET['uid'])){
+		$query = "SELECT uid, firstname, lastname, email, password FROM users WHERE uid=".$_GET['uid']."";
+		$user = getRecord($query);
+	}
+ 
+	if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['changePassword'])) {
+		
+		$postData = [
+		'oldpassword' => $_POST['oldpassword'],
+		'newpassword' => $_POST['newpassword']
+		];
+			
+		if(empty($postData['oldpassword']) || empty($postData['newpassword'])){
+			echo "Hiányzó adatok!";
+		} 
+		else{
+			$query = "UPDATE users SET password =".sha1($postData['newpassword'])." WHERE uid=".$_GET['uid']."";
+			executeDML($query);	
+			header ("Location: index.php?P=home");
+		}
+	}
+	
+	
 ?>
-<?php if(count($users) > null) : ?>
-	<h1>No users found in the database.</h1>
-<?php else : ?>
+<form method="POST">
 	<table class="users">
-	<h1>Jelszó változtatás!</h1>		 
-	<div class="form-group row">
-    	<label for="inputPassword3" class="col-sm-1 col-form-label">Régi jelszó</label>
-    	<div class="col-sm-3">
-      		<input type="password" class="form-control" id="inputPassword3" placeholder="********" name="password" value="">
-    	</div>
-    </div>
-    <div class="form-group row">
-    	<label for="inputPassword3" class="col-sm-1 col-form-label">Új jelszó</label>
-    	<div class="col-sm-3">
-      		<input type="password" class="form-control" id="inputPassword3" placeholder="********" name="password" value="">
-    	</div>
-    </div>	
+		<h1>Jelszó változtatás!</h1>		 
+		<div class="form-group row">
+			<label for="inputPassword3" class="col-sm-1 col-form-label">Régi jelszó</label>
+			<div class="col-sm-3">
+				<input type="password" class="form-control" id="inputPassword3" placeholder="********" name="oldpassword" value="">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword3" class="col-sm-1 col-form-label">Új jelszó</label>
+			<div class="col-sm-3">
+				<input type="password" class="form-control" id="inputPassword3" placeholder="********" name="newpassword" value="">
+			</div>
+		</div>	
+		<button type="submit" class="btn btn-primary" name="changePassword">Jelszó változtatás</button>
 	</table>
-<?php endif; ?>
+</form>
