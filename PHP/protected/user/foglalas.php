@@ -1,5 +1,15 @@
 <?php 
-
+if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['lefoglal'])) {
+  $postData = [
+    'film_name' => $_POST['film_name'],
+    'cinema_hall' => $_POST['cinema_hall'],
+	'date' => $_POST['date'],
+	'show_time' => $_POST['show_time'],
+	'seats' => $_POST['seats']
+  ];
+  echo '<script>alert("Gratulálunk!  Sikeres foglalás!")</script>';
+  header('Location: index.php?P=listaz');
+}
 ?>
 
 <form method="post">
