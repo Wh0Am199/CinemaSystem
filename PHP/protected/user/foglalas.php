@@ -8,7 +8,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['lefoglal'])) {
 	'seats' => $_POST['seats']
   ];
   echo '<script>alert("Gratulálunk!  Sikeres foglalás!")</script>';
-  header('Location: index.php?P=listaz');
+  //header('Location: index.php?P=listaz');
 }
 ?>
 
