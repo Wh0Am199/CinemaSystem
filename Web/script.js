@@ -12,6 +12,15 @@ function addField (argument) {
 		var emailbox = document.createElement("input");
         emailbox.setAttribute("name", "email" + currentIndex);
 		
+		var rightsbox = document.createElement("form-control");
+        //TODO
+
+        var deletebox = document.createElement("button");
+        deletebox.setAttribute("type", "button");
+        deletebox.setAttribute("onclick", "deleteRow(this.parentNode.parentNode.rowIndex)");
+        deletebox.setAttribute("class", "btn btn-info btn-outline btn-circle btn-lg m-r-5");
+		deletebox.innerHTML = '<i class="icon-trash"></i>';
+		
         var currentCell = currentRow.insertCell(-1);
         currentCell.appendChild(indexfield);
 
