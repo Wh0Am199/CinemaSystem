@@ -9,6 +9,9 @@ function addField (argument) {
 		var usernamefield = document.createElement("input");
         usernamefield.setAttribute("name", "username" + currentIndex);
 		
+		var emailbox = document.createElement("input");
+        emailbox.setAttribute("name", "email" + currentIndex);
+		
         var currentCell = currentRow.insertCell(-1);
         currentCell.appendChild(indexfield);
 
