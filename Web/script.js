@@ -1,7 +1,10 @@
 function addField (argument) {
         var myTable = document.getElementById("myTable");
         var currentIndex = myTable.rows.length;
-        var currentRow = myTable.insertRow(-1);		       
+        var currentRow = myTable.insertRow(-1);
+
+		var indexfield = document.createElement("output");
+        indexfield.setAttribute("name", "index" + currentIndex);
 		
         var currentCell = currentRow.insertCell(-1);
         currentCell.appendChild(indexfield);
