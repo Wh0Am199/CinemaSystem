@@ -33,3 +33,7 @@ function addField (argument) {
         currentCell = currentRow.insertCell(-1);
         currentCell.appendChild(deletebox);
 }
+
+function deleteRow(i){
+    document.getElementById('myTable').deleteRow(i)
+}
