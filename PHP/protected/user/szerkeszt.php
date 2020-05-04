@@ -10,7 +10,8 @@
 		
 		$postData = [
 			'oldpassword' => $_POST['oldpassword'],
-			'newpassword' => $_POST['newpassword']
+			'newpassword' => $_POST['newpassword'],
+			'confirmnewpassword' => $_POST['confirmnewpassword']
 		];
 			
 		if(empty($postData['oldpassword']) || empty($postData['newpassword'])){
@@ -18,6 +19,9 @@
 		} 
 		else if($user['password'] != sha1($postData['oldpassword'])){
 			echo "Régi jelszó nem egyezik!";
+		}
+		else if($postData['newpassword'] != $postData['confirmnewpassword']){
+			echo "Az új jelszó és hitelesítési jelszó nem egyezik!";
 		}
 		else{
 			$query = "UPDATE users SET password = :password WHERE uid=".$_GET['uid']."";
@@ -46,7 +50,13 @@
 			<div class="col-sm-3">
 				<input type="password" class="form-control" id="inputPassword3" placeholder="********" name="newpassword" value="">
 			</div>
-		</div>	
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword3" class="col-sm-1 col-form-label">Jelszó hitelesítés</label>
+			<div class="col-sm-3">
+				<input type="password" class="form-control" id="inputPassword3" placeholder="********" name="confirmnewpassword" value="">
+			</div>
+		</div>			
 		<button type="submit" class="btn btn-primary" name="changePassword">Jelszó változtatás</button>
 	</table>
 </form>
