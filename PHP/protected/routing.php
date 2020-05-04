@@ -11,6 +11,8 @@ switch ($_GET['P']) {
 	case 'foglalas': !IsUserLoggedIn(); require_once PROTECTED_DIR.'user/foglalas.php'; break;
 	case 'register': !IsUserLoggedIn() ? require_once PROTECTED_DIR.'user/register.php' : header('Location: index.php'); break;
 	case 'logout': IsUserLoggedIn() ? UserLogout() : header('Location: index.php'); break;
+	case 'sajatfoglalas': !IsUserLoggedIn(); require_once PROTECTED_DIR.'user/sajatfoglalasok.php'; break;
+	case 'torol': !IsUserLoggedIn(); require_once PROTECTED_DIR.'user/torol.php'; break;
 	default: require_once PROTECTED_DIR.'normal/404.php'; break;
 }
 ?>
