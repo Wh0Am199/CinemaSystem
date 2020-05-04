@@ -3,6 +3,7 @@
 	require_once DATABASE_CONTROLLER;
 	$films = getList($query);
 ?>
+<center><button type="button" class="btn btn-outline-info"><font size="5"><a href="index.php?P=sajatfoglalas">Saját foglalások</a></font></button><br><br></center>
 <?php if(count($films) <= 0) : ?>
 	<h1>No films found in the database.</h1>
 <?php else : ?>
