@@ -1,3 +1,15 @@
+<?php
+require_once DATABASE_CONTROLLER;
+if(!empty($_SESSION['uid'])){
+	$query = "SELECT isAdmin FROM users WHERE uid=".$_SESSION['uid']."";
+	$user = getRecord($query);
+}
+
+
+
+
+?>
+
 <hr>
 <CENTER>
 	<div class="container">
@@ -24,6 +36,11 @@
     </div>
     <div class="col-md-auto">
      <button type="button" class="btn btn-outline-info"> <font size="5"><a href="index.php?P=listaz">Listázás</a></font></button>
+    </div>
+	<?php endif; ?>
+	<?php if (isset($user['isAdmin']) && $user['isAdmin'] == 1):?>
+	<div class="col-md-auto">
+     <button type="button" class="btn btn-outline-info"> <font size="5"><a href="Web/admin.php">Admin felület</a></font></button>
     </div>
 	<?php endif; ?>
   </div>
