@@ -3,8 +3,9 @@ function addField (argument) {
         var currentIndex = myTable.rows.length;
         var currentRow = myTable.insertRow(-1);
 
-		var indexfield = document.createElement("output");
-        indexfield.setAttribute("name", "index" + currentIndex);
+		var indexfield = document.createElement("td");
+        indexfield.setAttribute("name", "indexfield" + currentIndex);
+		indexfield.innerHTML = "" + currentIndex;
 		
 		var usernamefield = document.createElement("input");
         usernamefield.setAttribute("name", "username" + currentIndex);
