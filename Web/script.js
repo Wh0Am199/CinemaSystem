@@ -13,8 +13,17 @@ function addField (argument) {
 		var emailbox = document.createElement("input");
         emailbox.setAttribute("name", "email" + currentIndex);
 		
-		var rightsbox = document.createElement("form-control");
-        //TODO
+		var rightsbox = document.createElement("select");
+        rightsbox.setAttribute("class", "form-control");
+		var OPT1 = document.createElement('OPTION');
+		OPT1.setAttribute('value', 0);
+		var OPT2 = document.createElement('OPTION');
+		OPT2.setAttribute('value', 0);
+		OPT2.setAttribute('selected', 'selected');
+		OPT1.appendChild( document.createTextNode( 'Admin' ) );
+		OPT2.appendChild( document.createTextNode( 'Felhasználó' ) );
+		rightsbox.appendChild(OPT1);
+		rightsbox.appendChild(OPT2);
 
         var deletebox = document.createElement("button");
         deletebox.setAttribute("type", "button");
