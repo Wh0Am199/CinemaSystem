@@ -1,16 +1,16 @@
 function addField (argument) {
         var myTable = document.getElementById("myTable");
         var currentIndex = myTable.rows.length;
-        var currentRow = myTable.insertRow(-1);
+        var currentRow = myTable.insertRow(-1);		
 
-		var indexfield = document.createElement("td");
+        var indexfield = document.createElement("td");
         indexfield.setAttribute("name", "indexfield" + currentIndex);
 		indexfield.innerHTML = "" + currentIndex;
-		
-		var usernamefield = document.createElement("input");
+
+        var usernamefield = document.createElement("input");
         usernamefield.setAttribute("name", "username" + currentIndex);
-		
-		var emailbox = document.createElement("input");
+
+        var emailbox = document.createElement("input");
         emailbox.setAttribute("name", "email" + currentIndex);
 		
 		var rightsbox = document.createElement("select");
@@ -39,11 +39,14 @@ function addField (argument) {
 
         currentCell = currentRow.insertCell(-1);
         currentCell.appendChild(emailbox);
+		
+		currentCell = currentRow.insertCell(-1);
+        currentCell.appendChild(rightsbox);
 
         currentCell = currentRow.insertCell(-1);
         currentCell.appendChild(deletebox);
-}
-
+    }
+	
 function deleteRow(i){
     document.getElementById('myTable').deleteRow(i)
 }
