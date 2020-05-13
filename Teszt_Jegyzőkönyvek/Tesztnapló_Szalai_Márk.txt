@@ -1,0 +1,49 @@
+Tesztnapló - Szalai Márk
+
+Célja a tesztnaplónak:
+	- Funkciók ellenőrzése a megfelelő működés érdekében.
+	- Az adott funkciók nem okoznak-e összeomlást vagy egyéb rendellenes dolgot.
+	
+Tesztelés áldozatai:
+	- Login funkció
+	- Register funkció
+	- Logout
+	- Profil szerkesztés
+	- Listázás Jegy/hely lefoglalás, megtekintés
+	
+Eredmények:
+	Login:
+			- Hibás adatok esetén megkapjuk a megfelelő hibaüzenetet.
+			- Nem megfelelő email formátum esetén a hibaüzenet megjelenik.
+			- Jelszó rossz jelszó és megfelelő email esetén, ha nem egyeznek az adatok az adatbázisban tároltakéval, akkor hibaüzenet kapunk.
+	
+	Register:
+			- Nem teljes kitöltés esetén, hibaüzenetet kapunk.
+			- Ha a jelszavak nem azonosak úgyszintén hibaüzenet kapunk.
+			- Ha az emailek nem azonosak szintén hibaüzenet jelenik meg.
+			- Nem megfelelő email formátum esetén a hibaüzenet megjelenik.
+			- A kötelezően kitöltendő mezőket csillag jelöli, ha ezek nincsenek kitöltve hibaüzenet jelenik meg.
+	
+	Logout:
+			- Kijelentkezés tökéletesen müködik.
+			
+	Profil szerkesztés:
+			- Rossz jelszó esetén hibaüzenet jelenik meg.
+			- Ha az új két jelszó nem egyezik, hibaüzenet.
+			- Ha minden egyezik szépen végbemegy a változtatás.
+			
+	Listázás:
+			- Listázás során szépen megjelennek az adatbázisban tárolt adatok.
+			- Hibát nem vettem észre.
+			- Film kiválasztás esetén megjelenik a jegy/hely foglalás.
+			- Jegyfoglalás esetén egyetlen hibába ütköztem, ami nálam problémás csak.
+			- Hibás kitöltés esetén hibaüzenetek megjelennek.
+			- Saját foglalásokat nem tudtam megnézni, mivel nekem nem foglal le jegyet.
+			
+			
+Összesítés:
+	- Egyetlen hibába ütköztem, de mint kiderítettem nálam van a hiba.
+	- A hiba: Jegyfoglalás esetén nem foglal le jegyet, hanem hibát dob, pedig a kitöltés helyes.
+	- Minden hiányos kitöltésre kidobodik a megfelelő hibaüzenet.
+	- Az egyetlen hibán kivül minden megfelelően működik.
+	
