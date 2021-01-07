@@ -1,0 +1,33 @@
+Tesztnapló - Balogh Dániel
+
+Célja a tesztnaplónak:
+	- Az oldal megjelenése megfelelő e.
+	- Az adott képek és leírások helyesen vannak e feltüntetve az oldalon.
+	- Funkciók ellenörzése
+	
+Tesztelés áldozatai:
+	- Login funkció
+	- Register funkció
+	- Logout
+	
+	
+Eredmények:
+	Login:
+			- Hibás adatok esetén megkapjuk a megfelelő hibaüzenetet.
+			- Nem megfelelő email formátum esetén a hibaüzenet megjelenik.
+			- Jelszó rossz jelszó és megfelelő email esetén, ha nem egyeznek az adatok az adatbázisban tároltakéval, akkor hibaüzenet kapunk.
+	
+	Register:
+			- Nem teljes kitöltés esetén, hibaüzenetet kapunk.
+			- Ha a jelszavak nem azonosak úgyszintén hibaüzenet kapunk.
+			- Ha az emailek nem azonosak szintén hibaüzenet jelenik meg.
+			- Nem megfelelő email formátum esetén a hibaüzenet megjelenik.
+			- A kötelezően kitöltendő mezőket csillag jelöli, ha ezek nincsenek kitöltve hibaüzenet jelenik meg.
+	
+	Logout:
+			- Kijelentkezés tökéletesen müködik.
+			
+			
+			
+Összesítés:
+	- A tesztelés során nem találkoztam hibával.
